@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvProname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvError" />
+
+    <EditText
+        android:id="@+id/tvAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvProname"
+        app:layout_constraintStart_toStartOf="@+id/tvProname"
+        app:layout_constraintTop_toBottomOf="@+id/tvProname" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_propertyname"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvProname"
+        app:layout_constraintStart_toStartOf="@+id/tvProname" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_address"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvAddress"
+        app:layout_constraintStart_toStartOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tvType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvAddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_protype"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvType"
+        app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/tvFur"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvType"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvType"
+        app:layout_constraintTop_toBottomOf="@+id/tvType" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_furniture"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvFur"
+        app:layout_constraintStart_toStartOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_bed"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvBed"
+        app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_price"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvPrice"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/tvReporter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvPrice"
+        app:layout_constraintStart_toStartOf="@+id/tvBed"
+        app:layout_constraintTop_toBottomOf="@+id/tvBed" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_reporter"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvReporter"
+        app:layout_constraintStart_toStartOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/tvNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#673AB7"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvReporter"
+        app:layout_constraintStart_toStartOf="@+id/tvReporter"
+        app:layout_constraintTop_toBottomOf="@+id/tvReporter" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_note"
+        android:textColor="@color/main"
+        app:layout_constraintBottom_toTopOf="@+id/tvNote"
+        app:layout_constraintStart_toStartOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_create"
+        app:layout_constraintEnd_toEndOf="@+id/tvNote"
+        app:layout_constraintStart_toStartOf="@+id/tvNote"
+        app:layout_constraintTop_toBottomOf="@+id/tvNote" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvBed"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorLink="#673AB7"
+        app:layout_constraintStart_toStartOf="@+id/tvFur"
+        app:layout_constraintTop_toBottomOf="@+id/tvFur" />
+
+    <EditText
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="@+id/tvFur"
+        app:layout_constraintStart_toEndOf="@+id/tvBed"
+        app:layout_constraintTop_toBottomOf="@+id/tvFur" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

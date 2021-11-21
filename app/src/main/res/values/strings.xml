@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RentalZ</string>
+    <string name="btn_create">Create Property</string>
+    <string name="tv_propertyname">Property Name</string>
+    <string name="tv_protype">Property Type</string>
+    <string name="tv_bed">Number of Bedrooms</string>
+    <string name="tv_price">Monthly price</string>
+    <string name="tv_reporter">Reporter</string>
+    <string name="notification_01">Welcome to RentalZ</string>
+    <string name="notification_02">Property has been created</string>
+
+    <string name="tv_address">Property Address</string>
+    <string name="tv_furniture">Property Furniture</string>
+    <string name="tv_note">Property Note</string>
+
+
+    <string name="btn_confirm">Go to Confirmation</string>
+    <string name="notification">This is just an example of switching languages.</string>
+    <string name="btn_vi">Vietnamese</string>
+    <string name="btn_en">English</string>
+
+</resources>
